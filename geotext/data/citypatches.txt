@@ -1,0 +1,92 @@
+oklahoma	US
+changshu	CN
+greenacres	US
+redwood	US
+cabanatuan	PH
+salt lake	US
+logan	AU
+bacolod	PH
+makakilo	US
+cedar	US
+iligan	PH
+boulder	US
+calbayog	PH
+granite	US
+long island	US
+michigan	US
+carson	US
+guatemala	GT
+vatican	VA
+daly	US
+mexico df	MX
+ozamiz	PH
+parramatta	AU
+ponca	US
+calumet	US
+yuba	US
+brigham	US
+pasig	PH
+johnson	US
+bago	PH
+west valley	US
+tarlac	PH
+lake havasu	US
+ho chi minh	VN
+welwyn garden	GB
+dumaguete	PH
+peachtree	US
+haltom	US
+kansas	US
+cebu	PH
+phenix	US
+carol	US
+mansfield	US
+iriga	PH
+roxas	PH
+kuwait	KW
+palayan	PH
+jersey	US
+bossier	US
+south yuba	US
+batac	PH
+sammamish	US
+tuguegarao	PH
+makati	PH
+marawi	PH
+girardot	CO
+benin	NG
+taoyuan	TW
+oregon	US
+tagbilaran	PH
+mandaue	PH
+attock	PK
+milford	US
+letchworth garden	GB
+foster	US
+baise	CN
+palm	US
+mason	US
+iowa	US
+lipa	PH
+balikpapan	ID
+mandaluyong	PH
+jambi	ID
+quezon	PH
+karak	JO
+malakwal	PK
+manukau	NZ
+lapu-lapu	PH
+taitung	TW
+wenshan	CN
+london	GB
+zhu cheng	CN
+dale	US
+cooper	US
+sioux	US
+texas	US
+new york	US
+maryland	US
+haines	US
+missouri	US
+culver	US
+sandy	US

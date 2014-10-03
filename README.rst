@@ -12,7 +12,7 @@ geotext
         :target: https://pypi.python.org/pypi/geotext
 
 
-Geotext extracts countriy and city mentions from text
+Geotext extracts country and city mentions from text
 
 * Free software: BSD license
 * Documentation: https://geotext.readthedocs.org.
