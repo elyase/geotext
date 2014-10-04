@@ -30,7 +30,7 @@ Usage
 
 Features
 --------
-- No external dependecies
+- No external dependencies
 - Fast
 - Data from http://www.geonames.org licensed under the Creative Commons Attribution 3.0 License.
 
