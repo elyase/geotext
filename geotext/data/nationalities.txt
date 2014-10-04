@@ -3,8 +3,8 @@
 #  Extracted from http://en.wikipedia.org/wiki/Lists_of_people_by_nationality   #
 #                                                                               #
 #################################################################################
-nationality:cc
 chinese:CN
+american:US
 german:DE
 canadian:CA
 german:DE

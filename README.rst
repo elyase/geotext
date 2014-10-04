@@ -2,8 +2,6 @@
 geotext
 ===============================
 
-.. image:: https://badge.fury.io/py/geotext.png
-    :target: http://badge.fury.io/py/geotext
 
 .. image:: https://travis-ci.org/elyase/geotext.png?branch=master
         :target: https://travis-ci.org/elyase/geotext
@@ -14,10 +12,16 @@ geotext
 
 Geotext extracts country and city mentions from text
 
-* Free software: BSD license
+* Free software: MIT license
 * Documentation: https://geotext.readthedocs.org.
 
 Features
 --------
+- No external dependecies
+- Fast
+- Data from http://www.geonames.org licensed under the Creative Commons Attribution 3.0 License.
 
-* TODO
+Similar projects
+----------------
+`geography
+<https://github.com/ushahidi/geograpy>`_: geography is bigger in scope compared to geotext and can do everything geotext does. On the other hand geotext is leaner: has no external dependencies, is faster (re vs nltk) and also depends on libraries and data covered with less permissive licenses.

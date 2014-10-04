@@ -34,7 +34,7 @@ setup(
                  'geotext'},
     include_package_data=True,
     install_requires=requirements,
-    license="BSD",
+    license="MIT",
     zip_safe=False,
     keywords='geotext',
     classifiers=[

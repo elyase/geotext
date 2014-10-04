@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from collections import namedtuple
+from collections import namedtuple, Counter, OrderedDict
 import re
 import os
 
@@ -11,7 +11,7 @@ def get_data_path(path):
     return os.path.join(_ROOT, 'data', path)
 
 
-def read_table(filename, usecols=[0, 1], sep='\t', comment='#', encoding='utf-8', skip=0):
+def read_table(filename, usecols=(0, 1), sep='\t', comment='#', encoding='utf-8', skip=0):
     """Parse data files from the data directory
 
     Parameters
@@ -70,7 +70,8 @@ def build_index():
     nationalities = read_table(get_data_path('nationalities.txt'), sep=':')
 
     # parse http://download.geonames.org/export/dump/countryInfo.txt
-    countries = read_table(get_data_path('countryInfo.txt'), usecols=[4, 0], skip=1)
+    countries = read_table(
+        get_data_path('countryInfo.txt'), usecols=[4, 0], skip=1)
 
     # parse http://download.geonames.org/export/dump/cities15000.zip
     cities = read_table(get_data_path('cities15000.txt'), usecols=[1, 8])
@@ -85,14 +86,17 @@ def build_index():
 
 class GeoText(object):
 
-    """Extract geo information from a text
+    """Extract cities and countries from a text
 
-    Example
-    -------
+    Examples
+    --------
 
     >>> places = GeoText("London is a great city")
     >>> places.cities
     "London"
+
+    >>> GeoText('New York, Texas, and also China').country_mentions
+    OrderedDict([(u'US', 2), (u'CN', 1)])
 
     """
 
@@ -110,5 +114,16 @@ class GeoText(object):
         self.nationalities = [each for each in candidates
                               if each.lower() in self.index.nationalities]
 
+        # Calculate number of country mentions
+        self.country_mentions = [self.index.countries[country.lower()]
+                                 for country in self.countries]
+        self.country_mentions.extend([self.index.cities[city.lower()]
+                                      for city in self.cities])
+        self.country_mentions.extend([self.index.nationalities[nationality.lower()]
+                                      for nationality in self.nationalities])
+        self.country_mentions = OrderedDict(
+            Counter(self.country_mentions).most_common())
+
 if __name__ == '__main__':
-    print GeoText('New York').cities
+    print GeoText('New York and the American people from Kansas').country_mentions
+    print GeoText('In a filing with the Hong Kong bourse, the Chinese cement producer said ...').countries
