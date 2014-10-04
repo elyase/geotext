@@ -37,4 +37,4 @@ Features
 Similar projects
 ----------------
 `geography
-<https://github.com/ushahidi/geograpy>`_: geography is bigger in scope compared to geotext and can do everything geotext does. On the other hand geotext is leaner: has no external dependencies, is faster (re vs nltk) and also depends on libraries and data covered with less permissive licenses.
+<https://github.com/ushahidi/geograpy>`_: geography is more advanced and bigger in scope compared to geotext and can do everything geotext does. On the other hand geotext is leaner: has no external dependencies, is faster (re vs nltk) and also depends on libraries and data covered with more permissive licenses.
