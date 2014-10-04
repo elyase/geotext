@@ -15,6 +15,19 @@ Geotext extracts country and city mentions from text
 * Free software: MIT license
 * Documentation: https://geotext.readthedocs.org.
 
+Usage
+-----
+.. code-block:: python
+
+        from geotext import GeoText
+        
+        places = GeoText("London is a great city")
+        places.cities
+        # "London"
+        
+        GeoText('New York, Texas, and also China').country_mentions
+        # OrderedDict([(u'US', 2), (u'CN', 1)])
+
 Features
 --------
 - No external dependecies
