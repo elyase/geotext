@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='geotext',
-    version='0.1.0',
+    version='0.2.0',
     description='Geotext extracts countriy and city mentions from text',
     long_description=readme + '\n\n' + history,
     author='Yaser Martinez Palenzuela',
@@ -44,6 +44,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     test_suite='tests',
     tests_require=test_requirements
