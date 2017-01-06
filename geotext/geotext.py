@@ -42,7 +42,7 @@ def read_table(filename, usecols=(0, 1), sep='\t', comment='#', encoding='utf-8'
     A dictionary with the same length as the number of lines in `filename`
     """
 
-    with open(filename, 'rb') as f:
+    with open(filename, 'r') as f:
         # skip initial lines
         for _ in range(skip):
             next(f)
@@ -53,8 +53,8 @@ def read_table(filename, usecols=(0, 1), sep='\t', comment='#', encoding='utf-8'
         d = dict()
         for line in lines:
             columns = line.split(sep)
-            key = columns[usecols[0]].decode(encoding).lower()
-            value = columns[usecols[1]].decode(encoding).rstrip('\n')
+            key = columns[usecols[0]].lower()
+            value = columns[usecols[1]].rstrip('\n')
             d[key] = value
     return d
 
@@ -125,5 +125,4 @@ class GeoText(object):
             Counter(self.country_mentions).most_common())
 
 if __name__ == '__main__':
-    print GeoText('New York and the American people from Kansas').country_mentions
-    print GeoText('In a filing with the Hong Kong bourse, the Chinese cement producer said ...').countries
+    print(GeoText('In a filing with the Hong Kong bourse, the Chinese cement producer said ...').countries)
