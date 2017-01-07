@@ -2,12 +2,14 @@
 geotext
 ===============================
 
+.. image:: https://img.shields.io/pypi/v/geotext.svg
+        :target: https://pypi.python.org/pypi/geotext
 
+.. image:: https://img.shields.io/pypi/pyversions/geotext.svg
+        :target: https://pypi.python.org/pypi/geotext
+        
 .. image:: https://travis-ci.org/elyase/geotext.png?branch=master
         :target: https://travis-ci.org/elyase/geotext
-
-.. image:: https://pypip.in/d/geotext/badge.png
-        :target: https://pypi.python.org/pypi/geotext
 
 
 Geotext extracts country and city mentions from text
