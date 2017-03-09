@@ -103,7 +103,7 @@ class GeoText(object):
     index = build_index()
 
     def __init__(self, text):
-        city_regex = r"[A-Z]+[a-z]*(?:[ '-][A-Z]+[a-z]*)*"
+        city_regex = r"[A-Z]+[a-zà-ú]*(?:[ '-][A-Z]+[a-zà-ú]*)*"
         candidates = re.findall(city_regex, text)
         self.countries = [each for each in candidates
                           if each.lower() in self.index.countries]
