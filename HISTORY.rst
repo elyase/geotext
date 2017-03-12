@@ -3,6 +3,10 @@
 History
 -------
 
+0.3.0 (2017-12-03)
+++++++++++++++++++
+Support for Brazilian cities (credit to @joseluizcoe)
+
 0.2.0 (2017-07-01)
 ++++++++++++++++++
 
