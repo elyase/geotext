@@ -34,6 +34,9 @@ htmlcov
 .mr.developer.cfg
 .project
 .pydevproject
+pip-selfcheck.json
+share/
+pyvenv.cfg
 
 # Complexity
 output/*.html
