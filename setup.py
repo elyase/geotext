@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
-
 
 readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
@@ -21,7 +19,7 @@ test_requirements = [
 
 setup(
     name='geotext',
-    version='0.2.0',
+    version='0.3.0',
     description='Geotext extracts countriy and city mentions from text',
     long_description=readme + '\n\n' + history,
     author='Yaser Martinez Palenzuela',
@@ -30,12 +28,11 @@ setup(
     packages=[
         'geotext',
     ],
-    package_dir={'geotext':
-                 'geotext'},
+    package_dir={'geotext': 'geotext'},
     include_package_data=True,
     package_data={
-      'geotext': ['geotext/data/*.txt'],
-   },
+        'geotext': ['geotext/data/*.txt'],
+    },
     install_requires=requirements,
     license="MIT",
     zip_safe=False,
@@ -48,5 +45,4 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     test_suite='tests',
-    tests_require=test_requirements
-)
+    tests_require=test_requirements)
