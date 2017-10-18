@@ -42,13 +42,13 @@ def read_table(filename, usecols=(0, 1), sep='\t', comment='#', encoding='utf-8'
     A dictionary with the same length as the number of lines in `filename`
     """
 
-    with open(filename, 'rt', encoding=encoding) as f:
+    with open(filename, 'rb') as f:
         # skip initial lines
         for _ in range(skip):
             next(f)
 
-        # filter comment lines
-        lines = (line for line in f if not line.startswith(comment))
+        # filter comment lines (removes BOM during comment checking, but leaves it in capturing)
+        lines = (line.decode(encoding) for line in f if not line.decode(encoding).replace(u'\ufeff','').startswith(comment))
 
         d = dict()
         for line in lines:
