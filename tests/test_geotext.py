@@ -90,6 +90,11 @@ class TestGeotext(unittest.TestCase):
         ]
         self.assertEqual(result, expected)
 
+        result = geotext.GeoText('Rio de Janeiro y Havana', 'BR').cities
+        expected = [
+            'Rio de Janeiro'
+        ]                
+        self.assertEqual(result, expected)
 
     def test_nationalities(self):
 
