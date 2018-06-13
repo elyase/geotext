@@ -36,7 +36,8 @@ Usage
 
 Installation
 ------------
-.. code-block:: python
+.. code-block:: bash
+
         pip install https://github.com/elyase/geotext/archive/master.zip
 
 
