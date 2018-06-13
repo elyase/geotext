@@ -36,7 +36,9 @@ Usage
 
 Installation
 ------------
+```bash
 pip install https://github.com/elyase/geotext/archive/master.zip
+```
 
 Features
 --------
