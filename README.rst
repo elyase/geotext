@@ -34,6 +34,10 @@ Usage
         GeoText('New York, Texas, and also China').country_mentions
         # OrderedDict([(u'US', 2), (u'CN', 1)])
 
+Installation
+------------
+pip install https://github.com/elyase/geotext/archive/master.zip
+
 Features
 --------
 - No external dependencies
