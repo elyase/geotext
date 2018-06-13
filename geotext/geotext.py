@@ -3,6 +3,7 @@
 from collections import namedtuple, Counter, OrderedDict
 import re
 import os
+import io
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -42,7 +43,7 @@ def read_table(filename, usecols=(0, 1), sep='\t', comment='#', encoding='utf-8'
     A dictionary with the same length as the number of lines in `filename`
     """
 
-    with open(filename, 'r') as f:
+    with io.open(filename, 'r', encoding=encoding) as f:
         # skip initial lines
         for _ in range(skip):
             next(f)
