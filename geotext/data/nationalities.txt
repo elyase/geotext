@@ -3,34 +3,6 @@
 #  Extracted from http://en.wikipedia.org/wiki/Lists_of_people_by_nationality   #
 #                                                                               #
 #################################################################################
-chinese:CN
-american:US
-german:DE
-canadian:CA
-german:DE
-japanese:JP
-australian:AU
-indian:IN
-swiss:CH
-french:FR
-dutch:NL
-irish:IE
-russian:RU
-malaysian:MY
-south korean:KR
-swedish:SE
-south african:ZA
-taiwanese:TW
-italian:IT
-mexican:MX
-spanish:ES
-brasilian:BR
-chilean:CL
-austrian:AT
-argentinian:AR
-turkish:TR
-belgian:BE
-finnish:FI
 afghan:AF
 albanian:AL
 algerian:DZ
@@ -38,6 +10,7 @@ american:US
 andorran:AD
 angolan:AO
 argentine:AR
+argentinian:AR
 armenian:AM
 aruban:AW
 australian:AU
@@ -53,20 +26,19 @@ belizean:BZ
 bermudian:BM
 bosniak:BA
 bosnian:BA
+brasilian:BR
 brazilian:BR
 breton:GB
-british:GB
 british Virgin Islander:VG
-bulgarian:BG
-macedonian:MK
+british:GB
 bulgarian:BG
 burkinabè:BF
 burundian:BI
 cambodian:KH
 cameroonian:CM
 canadian:CA
-catalan:ES
 cape Verdean:CV
+catalan:ES
 chadian:TD
 chilean:CL
 chinese:CN
@@ -77,8 +49,8 @@ cuban:CU
 cypriot:CY
 czech:CZ
 dane:DK
-dominican:DM
 dominican: Do
+dominican:DM
 dutch:NL
 east Timorese:TL
 ecuadorian:EC
@@ -89,11 +61,10 @@ eritrean:ER
 estonian:EE
 ethiopian:ET
 faroese:FO
-finn:FI
-finnish:FI
-swedish:SE
 fijian:FJ
 filipino:PH
+finn:FI
+finnish:FI
 french:FR
 georgian:GE
 german:DE
@@ -103,8 +74,8 @@ greek:GR
 grenadian:GD
 guatemalan:GT
 guianese:GF
-guinean:GN
 guinea-Bissau:GW
+guinean:GN
 guyanese:GY
 haitian:HT
 honduran:HN
@@ -133,8 +104,8 @@ liechtensteiner:LI
 lithuanian:LT
 luxembourger:LU
 macedonian:MK
-malaysian:MY
 malawian:MW
+malaysian:MY
 maldivian:MV
 malian:ML
 maltese:MT
@@ -142,15 +113,15 @@ manx:IM
 mauritian:MR
 mexican:MX
 moldovan:MD
-moroccan:MA
 mongolian:MN
 montenegrin:ME
+moroccan:MA
 namibian:NA
 nepalese:NP
 new Zealander:NZ
 nicaraguan:NI
-nigerien:NE
 nigerian:NG
+nigerien:NE
 norwegian:NO
 pakistani:PK
 palauan:PW
@@ -163,12 +134,11 @@ pole:PL
 portuguese:PT
 puerto Rican:PR
 quebecer:CA
-réunionnai:RE
 romanian:RO
 russian:RU
 rwandan:RW
+réunionnai:RE
 salvadoran:SV
-são Tomé and Príncipe:ST
 saudi:SA
 senegalese:SN
 serb:RS
@@ -178,21 +148,26 @@ slovak:SK
 slovene:SI
 somali:SO
 south African:ZA
+south african:ZA
+south korean:KR
+spanish:ES
 sri Lankan:LK
 st Lucian:LC
 sudanese:SD
 surinamese:SR
 swedish:SE
+swiss:CH
 swiss:SZ
 syrian:SY
+são Tomé and Príncipe:ST
 taiwanese:TW
 tanzanian:TZ
 thai:TW
 tobagonian:TT
 trinidadian:TT
 tunisian:TN
-turkish:TR
 turk:TR
+turkish:TR
 tuvaluan:TW
 ugandan:UG
 ukrainian:UA
