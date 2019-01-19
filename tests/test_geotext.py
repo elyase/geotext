@@ -112,6 +112,13 @@ class TestGeotext(unittest.TestCase):
         expected = ['Japan', 'Italy', 'Germany']
         self.assertEqual(result, expected)
 
+    def test_country_mentions(self):
+
+        text = 'I would like to visit Lima, Dublin and Moscow (Russia).'
+        result = geotext.GeoText(text).country_mentions
+        expected = {'PE': 1, 'IE': 1, 'RU': 2}
+        self.assertEqual(result, expected)
+
     def tearDown(self):
         pass
 
