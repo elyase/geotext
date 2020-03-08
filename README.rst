@@ -28,7 +28,7 @@ Usage
         # "London"
 
         # filter by country code
-        result = geotext.GeoText('I loved Rio de Janeiro and Havana', 'BR').cities
+        result = GeoText('I loved Rio de Janeiro and Havana', 'BR').cities
         # 'Rio de Janeiro'
         
         GeoText('New York, Texas, and also China').country_mentions
