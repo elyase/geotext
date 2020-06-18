@@ -49,14 +49,14 @@ cuban:CU
 cypriot:CY
 czech:CZ
 dane:DK
-dominican: Do
 dominican:DM
+dominican:DO
 dutch:NL
 east Timorese:TL
 ecuadorian:EC
 egyptian:EG
 emirati:AE
-english:UK
+english:GB
 eritrean:ER
 estonian:EE
 ethiopian:ET
@@ -147,7 +147,6 @@ singaporean:SG
 slovak:SK
 slovene:SI
 somali:SO
-south African:ZA
 south african:ZA
 south korean:KR
 spanish:ES
@@ -156,19 +155,18 @@ st Lucian:LC
 sudanese:SD
 surinamese:SR
 swedish:SE
-swiss:CH
 swiss:SZ
 syrian:SY
 são Tomé and Príncipe:ST
 taiwanese:TW
 tanzanian:TZ
-thai:TW
+thai:TH
 tobagonian:TT
 trinidadian:TT
 tunisian:TN
 turk:TR
 turkish:TR
-tuvaluan:TW
+tuvaluan:TV
 ugandan:UG
 ukrainian:UA
 uruguayan:UY
